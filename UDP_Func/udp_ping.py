@@ -86,7 +86,7 @@ class UDP_Ping:
                     rtt_list.append(rtt)
                     self._stats['received'] += 1
                     self._stats['min_rtt'] = min(self._stats['min_rtt'], rtt)
-                    self._stats['max_rtt'] = max(self._stats['max_rtt'], rtt)
+                    self._stats['max_rtt'] = max(self._stats['max_rtt'], int(rtt))
 
                     self._stats['avg_rtt'] = sum(rtt_list) / len(rtt_list) if rtt_list else 0
                     if self._callback:
