@@ -39,7 +39,7 @@ class UDP_Ping:
                     print(f"来自 {addr[0]} 的回复: 字节={len(data)} 时间={rtt:.2f}ms")
                 except socket.timeout:
                     failures += 1
-                    print(f"请求 #{seq} 超时，请确保输入的地址为ip而不是网址")
+                    print(f"请求 #{seq} 超时")
                     continue
 
             except Exception as e:
