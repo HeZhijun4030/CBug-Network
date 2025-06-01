@@ -1,11 +1,7 @@
 import socket
-import UDP_Func.core as us
+import UDP_Func.udp_ping as up
 
-# 测试代码
+
 if __name__ == "__main__":
-    sender = us.udp_Sender()
-    sender.ip = "192.168.1.7"
-    sender.port = 9999
-
-    sender.send(b"Hello World", expect_reply=True)
-
+    pinger = up.UDP_Ping("4.2.2.2", 53,timeout=0.1)
+    pinger.ping(140)

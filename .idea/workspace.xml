@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="新增UDP服务器选择性回复">
-      <change afterPath="$PROJECT_DIR$/UDP_Func/core.py" afterDir="false" />
+    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="优化目录结构">
+      <change afterPath="$PROJECT_DIR$/UDP_Func/udp_ping.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDP_Func/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDP_Func/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UDP_Func/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDP_Func/core.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +30,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2xisGRmRCBxX886ql4hcqSsXJHB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -120,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748755057508</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="优化目录结构">
+      <option name="closed" value="true" />
+      <created>1748755392123</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1748755392123</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,6 +148,7 @@
     <MESSAGE value="Init" />
     <MESSAGE value="新增UDP json发送" />
     <MESSAGE value="新增UDP服务器选择性回复" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增UDP服务器选择性回复" />
+    <MESSAGE value="优化目录结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化目录结构" />
   </component>
 </project>
