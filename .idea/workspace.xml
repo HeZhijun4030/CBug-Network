@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="Init">
+    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="新增UDP json发送">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UDP_Func/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDP_Func/__init__.py" afterDir="false" />
     </list>
@@ -95,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748754038009</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增UDP json发送">
+      <option name="closed" value="true" />
+      <created>1748754830128</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1748754830128</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="新增UDP json发送" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增UDP json发送" />
   </component>
 </project>

@@ -18,7 +18,7 @@ class udp_Sender:
         self.port = 8080  #默认端口
         self.timeout = 2.0  #接收超时时间
 
-    def UDP_sendto(self, msg: bytes, expect_reply=False):
+    def send(self, msg: bytes, expect_reply=False):
         """发送UDP消息
         Args:
             msg: 要发送的字节消息
@@ -57,11 +57,14 @@ class udp_Server:
         self.ip = "127.0.0.1"
         self.port = 8080
 
-    def start_udp_server(self):
+    def start_udp_server(self,reply_msg:bytes,reply=True):
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
             s.bind((self.ip, self.port))
             logger.warning("UDP服务端已启动，等待消息...")
             while True:
                 data, addr = s.recvfrom(1024)
                 logger.info(f"收到来自 {addr} 的消息: {data.decode()}")
-                s.sendto(b"ACK", addr)
+                if reply:
+                    s.sendto(reply_msg, addr)
+                    logger.info(f"已回复消息: {reply_msg}")
+
