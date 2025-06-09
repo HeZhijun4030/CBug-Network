@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="修复了误导性的注释">
+    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="真帅">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDP_Func/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDP_Func/core.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UDP_Func/udp_ping.py" beforeDir="false" afterPath="$PROJECT_DIR$/UDP_Func/udp_ping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TCP_Func/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCP_Func/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -202,7 +201,47 @@
       <option name="project" value="LOCAL" />
       <updated>1748831595828</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="TCP更新">
+      <option name="closed" value="true" />
+      <created>1749457109811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1749457109811</updated>
+    </task>
+    <task id="LOCAL-00016" summary="TCP更新">
+      <option name="closed" value="true" />
+      <created>1749457138494</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1749457138494</updated>
+    </task>
+    <task id="LOCAL-00017" summary="TCP重大更新">
+      <option name="closed" value="true" />
+      <created>1749457778275</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1749457778275</updated>
+    </task>
+    <task id="LOCAL-00018" summary="真帅">
+      <option name="closed" value="true" />
+      <created>1749458067807</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1749458067807</updated>
+    </task>
+    <task id="LOCAL-00019" summary="真帅">
+      <option name="closed" value="true" />
+      <created>1749458107672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1749458107672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +265,9 @@
     <MESSAGE value="修复线程附带函数" />
     <MESSAGE value="新增readme文件" />
     <MESSAGE value="修复了误导性的注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了误导性的注释" />
+    <MESSAGE value="TCP更新" />
+    <MESSAGE value="TCP重大更新" />
+    <MESSAGE value="真帅" />
+    <option name="LAST_COMMIT_MESSAGE" value="真帅" />
   </component>
 </project>

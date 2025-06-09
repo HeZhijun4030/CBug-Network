@@ -1,6 +1,8 @@
-import UDP_Func.udp_ping as up
+import TCP_Func as up
 if __name__ == "__main__":
-    pinger=up.UDP_Ping("127.0.0.1",8080,interval=0)
-    pinger.ping(10000,payload_size=1024)
+    pinger=up.tcp_Sender("4.2.2.1",53)
+    pinger.send(b"Hello World!")
+    up.logger.info("Message sent successfully")
+
 
 
