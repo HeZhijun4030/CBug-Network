@@ -38,7 +38,7 @@ class tcp_Sender:
 
             try:
                 data= s.recv(self.buffer_size)
-                print(f"收到回复: {data.decode()}")
+                logger.info(f"收到回复: {data.decode()}")
                 return data
             except socket.timeout:
                 logger.error("等待回复超时")
@@ -64,7 +64,7 @@ class tcp_Sender:
 
             try:
                 data = s.recv(self.buffer_size)
-                print(f"收到回复: {data.decode()}")
+                logger.info(f"收到回复: {data.decode()}")
                 return data
             except socket.timeout:
                 logger.error("等待回复超时")
