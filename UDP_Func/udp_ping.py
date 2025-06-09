@@ -4,7 +4,7 @@ import logging
 
 logger = logging.getLogger("udp_ping")
 import threading
-from typing import Optional, Callable
+
 
 class UDP_Ping:
     def __init__(self, host: str, port: int, timeout: float = 2.0, interval=1.0):

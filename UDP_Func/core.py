@@ -15,9 +15,9 @@ logger.addHandler(console_handler)
 
 class udp_Sender:
     def __init__(self, ip="127.0.0.1", port=8080, timeout=2.0):
-        self.ip = ip  # 默认本地地址
-        self.port = port  # 默认端口
-        self.timeout = timeout  # 接收超时时间
+        self.ip = ip  #默认本地地址
+        self.port = port  #默认端口
+        self.timeout = timeout  #接收超时时间
 
     def send(self, msg: bytes, expect_reply=False):
         with socket.socket(socket.AF_INET, socket.SOCK_DGRAM) as s:
