@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="真帅">
+    <list default="true" id="bea78368-9cdd-4945-b216-242ae9b8dfc3" name="更改" comment="真帅,修了一些错误">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TCP_Func/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/TCP_Func/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749458649768</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="真帅,修了一些错误">
+      <option name="closed" value="true" />
+      <created>1749459913271</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1749459913271</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -277,6 +284,7 @@
     <MESSAGE value="TCP更新" />
     <MESSAGE value="TCP重大更新" />
     <MESSAGE value="真帅" />
-    <option name="LAST_COMMIT_MESSAGE" value="真帅" />
+    <MESSAGE value="真帅,修了一些错误" />
+    <option name="LAST_COMMIT_MESSAGE" value="真帅,修了一些错误" />
   </component>
 </project>
