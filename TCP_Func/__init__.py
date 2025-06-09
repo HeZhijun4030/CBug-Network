@@ -23,24 +23,17 @@ class tcp_Sender:
 
     def send(self, msg: bytes):
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-            try:
-                s.connect((self.ip, self.port))
-                logger.info(f"已连接 {self.ip}:{self.port}")
-                s.sendall(msg)
-                logger.info(f"已发送消息到 {self.ip}:{self.port}")
-                s.settimeout(self.timeout)
+            s.connect((self.ip, self.port))
+            logger.info(f"已连接 {self.ip}:{self.port}")
+            s.sendall(msg)
+            logger.info(f"已发送消息到 {self.ip}:{self.port}")
+            s.settimeout(self.timeout)
 
-            except socket.timeout:
-                logger.error("等待回复超时")
-                return None
-            except ConnectionResetError:
-                logger.error("连接被远程主机重置")
-                return None
 
             try:
-                data, addr = s.recvfrom(self.buffer_size)
-                logger.info(f"收到来自 {addr} 的回复: {data.decode()}")
-                return data, addr
+                data= s.recv(self.buffer_size)
+                print(f"收到回复: {data.decode()}")
+                return data
             except socket.timeout:
                 logger.error("等待回复超时")
                 return None
