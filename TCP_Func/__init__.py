@@ -4,7 +4,7 @@ import logging
 
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
-logger = logging.getLogger("tcp_service")
+logger = logging.getLogger("TCP_service")
 logger.setLevel(logging.INFO)
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)

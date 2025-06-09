@@ -4,7 +4,7 @@ import logging
 
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
-logger = logging.getLogger("udp_service")
+logger = logging.getLogger("UDP_service")
 logger.setLevel(logging.INFO)
 console_handler = logging.StreamHandler()
 console_handler.setLevel(logging.INFO)
